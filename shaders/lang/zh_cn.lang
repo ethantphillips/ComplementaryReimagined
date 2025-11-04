@@ -1,0 +1,43 @@
+# Overlay translation – pass 1 (profiles, visual style, main screens)
+# Keep keys identical; values translated. Preserve formatting codes like § and \n.
+
+
+profile.POTATO=§a土豆
+profile.VERYLOW=§a非常低
+profile.LOW=§a低
+profile.MEDIUM=§a中
+profile.HIGH=§e高（默认）
+profile.VERYHIGH=§c非常高
+profile.ULTRA=§4§l终极
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=着色器配置文件会调整性能相关设置，以获得最佳的画质与性能平衡。§e[*]§r 除非你非常清楚自己在做什么，否则建议使用这些配置文件之一。§e[*]§r 所有受影响的设置都位于“性能设置”菜单。
+
+option.SHADER_STYLE=视觉样式
+option.SHADER_STYLE.comment=决定着色器包的默认视觉风格。§bReimagined§r：在保留 Minecraft 独特风格的同时进行补充。§dUnbound§r：以半写实与奇幻风格重新打造视觉。§e[*]§r 受影响的设置：水体样式、云朵样式、日/月样式、日/月角度、极光样式、发光矿石。
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+screen.INFORMATION=信息
+screen.PERFORMANCE_SETTINGS=§e性能设置§r
+screen.ATMOSPHERE_SETTINGS=氛围
+screen.CLOUD_SETTINGS=云
+screen.FOG_SETTINGS=雾
+screen.SUN_MOON_SETTINGS=太阳 / 月亮
+screen.NETHER_SETTINGS=下界维度
+screen.WEATHER_SETTINGS=雨 / 天气
+screen.CAMERA_SETTINGS=相机
+screen.TONEMAP_SETTINGS=色彩平衡
+screen.COLORGRADING_SETTINGS=色彩分级
+screen.WORLD_BLUR_SETTINGS=世界模糊
+screen.MATERIAL_SETTINGS=材质
+screen.IPBR_SETTINGS=IntegratedPBR+ 材质
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr 材质
+screen.LIGHTING_SETTINGS=光照
+screen.WATER_SETTINGS=水面
+screen.WAVING_SETTINGS=摆动纹理
+screen.OTHER_SETTINGS=其他
+screen.SELECT_OUTLINE_SETTINGS=选中轮廓
+screen.WORLD_OUTLINE_SETTINGS=世界轮廓
+
+# NOTE: This is a partial overlay translation (pass 1).
+# You can keep this file alongside the full en_us.lang; only these keys will be overridden.

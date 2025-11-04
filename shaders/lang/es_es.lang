@@ -1,0 +1,43 @@
+# Overlay translation – pass 1 (profiles, visual style, main screens)
+# Keep keys identical; values translated. Preserve formatting codes like § and \n.
+
+
+profile.POTATO=§aPatata
+profile.VERYLOW=§aMuy bajo
+profile.LOW=§aBajo
+profile.MEDIUM=§aMedio
+profile.HIGH=§eAlto (Predeterminado)
+profile.VERYHIGH=§cMuy alto
+profile.ULTRA=§4§lUltra
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=Los perfiles de sombreado ajustan la configuración de rendimiento con la mejor relación entre fidelidad visual y rendimiento. §e[*]§r Se recomienda usar uno de estos perfiles salvo que sepas exactamente lo que haces. §e[*]§r Todos los ajustes afectados se encuentran en el menú «Configuración de rendimiento».
+
+option.SHADER_STYLE=Estilo visual
+option.SHADER_STYLE.comment=Determina el estilo visual predeterminado del paquete de sombreado. §bReimagined§r: complementa Minecraft conservando sus elementos visuales únicos. §dUnbound§r: remezcla los visuales con un estilo semi‑realista y de fantasía. §e[*]§r Ajustes afectados: Estilo del Agua, Estilo de Nubes, Estilo del Sol/Luna, Ángulo del Sol/Luna, Estilo de Aurora, Minerales brillantes.
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+screen.INFORMATION=Información
+screen.PERFORMANCE_SETTINGS=§eConfiguración de rendimiento§r
+screen.ATMOSPHERE_SETTINGS=Atmósfera
+screen.CLOUD_SETTINGS=Nubes
+screen.FOG_SETTINGS=Niebla
+screen.SUN_MOON_SETTINGS=Sol / Luna
+screen.NETHER_SETTINGS=Dimensión del Nether
+screen.WEATHER_SETTINGS=Lluvia / Clima
+screen.CAMERA_SETTINGS=Cámara
+screen.TONEMAP_SETTINGS=Balance de color
+screen.COLORGRADING_SETTINGS=Corrección de color
+screen.WORLD_BLUR_SETTINGS=Desenfoque del mundo
+screen.MATERIAL_SETTINGS=Materiales
+screen.IPBR_SETTINGS=Materiales IntegratedPBR+
+screen.CUSTOM_PBR_SETTINGS=Materiales labPBR/seuspbr
+screen.LIGHTING_SETTINGS=Iluminación
+screen.WATER_SETTINGS=Agua
+screen.WAVING_SETTINGS=Texturas ondeantes
+screen.OTHER_SETTINGS=Otros
+screen.SELECT_OUTLINE_SETTINGS=Contorno de selección
+screen.WORLD_OUTLINE_SETTINGS=Contorno del mundo
+
+# NOTE: This is a partial overlay translation (pass 1).
+# You can keep this file alongside the full en_us.lang; only these keys will be overridden.

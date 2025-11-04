@@ -1,0 +1,43 @@
+# Overlay translation – pass 1 (profiles, visual style, main screens)
+# Keep keys identical; values translated. Preserve formatting codes like § and \n.
+
+
+profile.POTATO=§aポテト
+profile.VERYLOW=§a非常に低い
+profile.LOW=§a低い
+profile.MEDIUM=§a普通
+profile.HIGH=§e高い（デフォルト）
+profile.VERYHIGH=§c非常に高い
+profile.ULTRA=§4§lウルトラ
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=シェーダープロファイルは、画質とパフォーマンスの最適なバランスを得るために性能設定を調整します。§e[*]§r 何をしているか十分理解していない限り、これらのプロファイルのいずれかを使うことをおすすめします。§e[*]§r 影響を受ける設定はすべて「パフォーマンス設定」メニューにあります。
+
+option.SHADER_STYLE=ビジュアルスタイル
+option.SHADER_STYLE.comment=シェーダーパックの既定の見た目を決定します。§bReimagined§r：Minecraft の独自性を保ちながら補完。§dUnbound§r：半リアルでファンタジー寄りのスタイルに再構築。§e[*]§r 影響を受ける設定：水のスタイル、雲のスタイル、太陽／月のスタイル、太陽／月の角度、オーロラのスタイル、発光する鉱石。
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+screen.INFORMATION=情報
+screen.PERFORMANCE_SETTINGS=§eパフォーマンス設定§r
+screen.ATMOSPHERE_SETTINGS=雰囲気
+screen.CLOUD_SETTINGS=雲
+screen.FOG_SETTINGS=霧
+screen.SUN_MOON_SETTINGS=太陽 / 月
+screen.NETHER_SETTINGS=ネザー次元
+screen.WEATHER_SETTINGS=雨 / 天候
+screen.CAMERA_SETTINGS=カメラ
+screen.TONEMAP_SETTINGS=色のバランス
+screen.COLORGRADING_SETTINGS=カラーグレーディング
+screen.WORLD_BLUR_SETTINGS=ワールドぼかし
+screen.MATERIAL_SETTINGS=マテリアル
+screen.IPBR_SETTINGS=IntegratedPBR+ マテリアル
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr マテリアル
+screen.LIGHTING_SETTINGS=ライティング
+screen.WATER_SETTINGS=水
+screen.WAVING_SETTINGS=揺れるテクスチャ
+screen.OTHER_SETTINGS=その他
+screen.SELECT_OUTLINE_SETTINGS=選択枠
+screen.WORLD_OUTLINE_SETTINGS=ワールドの輪郭
+
+# NOTE: This is a partial overlay translation (pass 1).
+# You can keep this file alongside the full en_us.lang; only these keys will be overridden.

@@ -1,0 +1,43 @@
+# Overlay translation – pass 1 (profiles, visual style, main screens)
+# Keep keys identical; values translated. Preserve formatting codes like § and \n.
+
+
+profile.POTATO=§aKartoffel
+profile.VERYLOW=§aSehr niedrig
+profile.LOW=§aNiedrig
+profile.MEDIUM=§aMittel
+profile.HIGH=§eHoch (Standard)
+profile.VERYHIGH=§cSehr hoch
+profile.ULTRA=§4§lUltra
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=Shader‑Profile ändern Leistungseinstellungen, um das beste Verhältnis von Bildqualität zu Leistung zu erreichen. §e[*]§r Es wird empfohlen, eines dieser Profile zu verwenden, außer du weißt genau, was du tust. §e[*]§r Alle betroffenen Einstellungen findest du im Menü „Leistungseinstellungen“.
+
+option.SHADER_STYLE=Visueller Stil
+option.SHADER_STYLE.comment=Legt den Standard‑Bildstil des Shader‑Pakets fest. §bReimagined§r: ergänzt Minecraft und bewahrt seine einzigartigen visuellen Elemente. §dUnbound§r: überarbeitet die Optik im halbrealistischen Fantasy‑Stil. §e[*]§r Betroffene Einstellungen: Wasserstil, Wolkenstil, Stil von Sonne/Mond, Winkel von Sonne/Mond, Aurora‑Stil, Leuchtende Erze.
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+screen.INFORMATION=Informationen
+screen.PERFORMANCE_SETTINGS=§eLeistungseinstellungen§r
+screen.ATMOSPHERE_SETTINGS=Atmosphäre
+screen.CLOUD_SETTINGS=Wolken
+screen.FOG_SETTINGS=Nebel
+screen.SUN_MOON_SETTINGS=Sonne / Mond
+screen.NETHER_SETTINGS=Nether‑Dimension
+screen.WEATHER_SETTINGS=Regen / Wetter
+screen.CAMERA_SETTINGS=Kamera
+screen.TONEMAP_SETTINGS=Farbabgleich
+screen.COLORGRADING_SETTINGS=Farbanpassung
+screen.WORLD_BLUR_SETTINGS=Welt‑Unschärfe
+screen.MATERIAL_SETTINGS=Materialien
+screen.IPBR_SETTINGS=IntegratedPBR+‑Materialien
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr‑Materialien
+screen.LIGHTING_SETTINGS=Beleuchtung
+screen.WATER_SETTINGS=Wasser
+screen.WAVING_SETTINGS=Wogende Texturen
+screen.OTHER_SETTINGS=Sonstiges
+screen.SELECT_OUTLINE_SETTINGS=Auswahlrahmen
+screen.WORLD_OUTLINE_SETTINGS=Welt‑Kontur
+
+# NOTE: This is a partial overlay translation (pass 1).
+# You can keep this file alongside the full en_us.lang; only these keys will be overridden.

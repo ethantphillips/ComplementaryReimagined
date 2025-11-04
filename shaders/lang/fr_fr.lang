@@ -1,0 +1,43 @@
+# Overlay translation – pass 1 (profiles, visual style, main screens)
+# Keep keys identical; values translated. Preserve formatting codes like § and \n.
+
+
+profile.POTATO=§aPatate
+profile.VERYLOW=§aTrès faible
+profile.LOW=§aFaible
+profile.MEDIUM=§aMoyen
+profile.HIGH=§eÉlevé (Par défaut)
+profile.VERYHIGH=§cTrès élevé
+profile.ULTRA=§4§lUltra
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=Les profils de shaders modifient les paramètres de performance afin d’obtenir le meilleur compromis entre fidélité visuelle et performances. §e[*]§r Il est recommandé d’utiliser l’un de ces profils, sauf si vous savez exactement ce que vous faites. §e[*]§r Tous les paramètres concernés se trouvent dans le menu « Paramètres de performance ».
+
+option.SHADER_STYLE=Style visuel
+option.SHADER_STYLE.comment=Détermine le style visuel par défaut du pack de shaders. §bReimagined§r : complète Minecraft tout en préservant ses éléments visuels uniques. §dUnbound§r : retravaille les visuels dans un style semi‑réaliste et fantastique. §e[*]§r Réglages affectés : Style de l’eau, Style des nuages, Style du soleil/de la lune, Angle du soleil/de la lune, Style des aurores, Minerais lumineux.
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+screen.INFORMATION=Informations
+screen.PERFORMANCE_SETTINGS=§eParamètres de performance§r
+screen.ATMOSPHERE_SETTINGS=Atmosphère
+screen.CLOUD_SETTINGS=Nuages
+screen.FOG_SETTINGS=Brouillard
+screen.SUN_MOON_SETTINGS=Soleil / Lune
+screen.NETHER_SETTINGS=Dimension du Nether
+screen.WEATHER_SETTINGS=Pluie / Météo
+screen.CAMERA_SETTINGS=Caméra
+screen.TONEMAP_SETTINGS=Équilibre des couleurs
+screen.COLORGRADING_SETTINGS=Étalonnage des couleurs
+screen.WORLD_BLUR_SETTINGS=Flou du monde
+screen.MATERIAL_SETTINGS=Matériaux
+screen.IPBR_SETTINGS=Matériaux IntegratedPBR+
+screen.CUSTOM_PBR_SETTINGS=Matériaux labPBR/seuspbr
+screen.LIGHTING_SETTINGS=Éclairage
+screen.WATER_SETTINGS=Eau
+screen.WAVING_SETTINGS=Textures ondulantes
+screen.OTHER_SETTINGS=Autre
+screen.SELECT_OUTLINE_SETTINGS=Contour de sélection
+screen.WORLD_OUTLINE_SETTINGS=Contour du monde
+
+# NOTE: This is a partial overlay translation (pass 1).
+# You can keep this file alongside the full en_us.lang; only these keys will be overridden.
